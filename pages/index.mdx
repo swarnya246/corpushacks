@@ -1,0 +1,137 @@
+import { Banner, List, Container, Callout, Gallery, FAQ, Team } from '../components/blocks'
+import { Box, Button } from 'rebass'
+import Link from 'next/link'
+// import CTA from '../components/cta'
+import Sponsors from '../components/sponsors'
+import Photo from '../components/photo'
+
+<Banner>
+
+# Corpus Hacks
+
+[comment]: # (tagline goes here)
+
+December 11th, 2022 @ TBD
+
+<Link href="/register">
+  <Button
+    as="a"
+    sx={{
+      bg: 'snow',
+      color: 'alt',
+      borderRadius: 'square',
+      fontFamily: 'inherit',
+      fontSize: [2, 3],
+      lineHeight: 2,
+      cursor: 'pointer',
+      px: 4,
+      mt: [3, 4],
+      transition: 'transform ease .125s',
+      ':hover, :focus': {
+        transform: 'scale(1.0625)'
+      }
+    }}>
+    Register
+  </Button>
+</Link>
+
+</Banner>
+
+<Container
+width="narrow"
+sx={{
+    p: {
+      fontSize: [2, 3, 4],
+      color: 'muted',
+      mb: [4, 5],
+      lineHeight: 1.375,
+      letterSpacing: '-.009em'
+    },
+    strong: {
+      fontWeight: 'medium',
+      color: 'text'
+    }
+  }}>
+
+[comment]: # (one line summary goes here in bold)
+
+Corpus Hacks is a student-run biology-themed hackathon for middle and high schoolers 
+in the Bay Area. Participants will receive free swag, prizes and food. They will have the 
+opportunity to participate in workshops, learn from industry experts, and develop their coding 
+skills in a stress-free environment. 
+
+</Container>
+
+[comment]: # (gallery goes here)
+
+<Container>
+
+## FAQ
+
+<Callout sx={{ mx: [null, null, -3, -4] }}>
+<FAQ>
+
+- **📚 How much experience do I need?**
+  All experience levels are welcome! Corpus Hacks invited beginners to participate.
+
+- **⚖️ Who will be judging?**
+  Projects will be judged by industry experts from Bay Area tech companies.
+
+- **📝 What forms do I need to fill out?**
+  We will send out waivers to participants who filled out the registration form.
+
+- **🎒 What should I bring?**
+  A computer and a charger. Everything else will be provided.
+
+- **🧑‍🤝‍🧑 Do I need a team?**
+  No, teams are not required. We will give time for participants to meet each other and form teams of up to four at the beginning of the event. 
+
+- **💻 What is a hackathon?**
+  A hackathon is an educational event where coders can create new things—you can make apps, websites, hardware hacks, etc.
+
+- **🧒 Who is eligible?**
+  All middle and high schoolers are eligible. 
+
+- **⌚ Am I required to stay for the entire event?**
+  No, you are welcome to leave whenever you want!
+
+- **💸 Do I have to pay?**
+  The hackathon is free! 
+
+- **❓ I have a question!**
+  Email us or DM us on Instagram!
+
+</FAQ>
+</Callout>
+
+[comment]: # (Sponsors go here)
+
+## Team
+
+[comment]: # (we can say we are from mvhs over here)
+
+<Team sx={{ mt: [3, 4] }}>
+
+- ![Swarnya](./static/profiles/swarnya.jpg)
+
+  **Swarnya Srivastava** _she/her_
+
+- ![Ritwika](./static/profiles/ritwika.jpg)
+
+  **Ritwika Ghosh** _she/her_
+
+- ![Muskaan](./static/profiles/muskaan.jpg)
+
+  **Muskaan Garg** _she/her_
+
+- ![Shridhula](./static/profiles/shridhula.jpg)
+
+  **Shridhula Srinivasan** _she/her_
+
+- ![Mridula](./static/profiles/mridula.jpg)
+
+  **Mridula Srinivasan** _she/her_
+
+</Team>
+
+</Container>
