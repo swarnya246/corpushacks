@@ -1,8 +1,8 @@
 {
-  "name": "@swarnya246/corpushacks",
+  "name": "@angelhacks/site",
   "version": "1.0.0",
   "private": true,
-  "author": "@swarnya246",
+  "author": "@lachlanjc and AngelHacks <hello@angelhacks.org>",
   "license": "MIT",
   "scripts": {
     "dev": "next",
